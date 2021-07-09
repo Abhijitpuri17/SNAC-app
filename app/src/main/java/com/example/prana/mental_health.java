@@ -26,6 +26,7 @@ public class mental_health extends AppCompatActivity {
 
     public void gotoMotivationalQuotes(View view)
     {
-
+         Intent intent = new Intent(getApplicationContext() , motivational_quotes.class) ;
+         startActivity(intent);
     }
 }
