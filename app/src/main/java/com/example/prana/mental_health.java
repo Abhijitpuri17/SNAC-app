@@ -14,14 +14,15 @@ public class mental_health extends AppCompatActivity {
         setContentView(R.layout.activity_mental_health);
     }
 
-    public void gotoMemes(View view)
+    public void gotoMeditation(View view)
     {
 
     }
 
     public void gotoMusic(View view)
     {
-
+        Intent intent = new Intent(getApplicationContext(), music_categories.class) ;
+        startActivity(intent) ;
     }
 
     public void gotoMotivationalQuotes(View view)

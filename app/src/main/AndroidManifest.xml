@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.prana">
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PRANA">
-        <activity android:name=".motivational_quotes"></activity>
+        <activity android:name=".playList"></activity>
+        <activity android:name=".music_categories" />
+        <activity android:name=".motivational_quotes" />
         <activity android:name=".logo_splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".mental_health" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
