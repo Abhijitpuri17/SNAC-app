@@ -45,16 +45,16 @@ public class MainActivity extends AppCompatActivity {
         physicalFitnessImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-             //   Intent intent = new Intent(MainActivity.this , physical_fitness.class) ;
-              //  startActivity(intent);
+                Intent intent = new Intent(MainActivity.this , physical_health.class) ;
+                startActivity(intent);
             }
         });
 
         physicalFitnessTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            //    Intent intent = new Intent(MainActivity.this , physical_fitness.class) ;
-            //    startActivity(intent);
+                Intent intent = new Intent(MainActivity.this , physical_health.class) ;
+                startActivity(intent);
             }
         });
 

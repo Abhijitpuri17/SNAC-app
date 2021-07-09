@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PRANA">
-        <activity android:name=".playList"></activity>
+        <activity android:name=".bmi"></activity>
+        <activity android:name=".exercises_demo" />
+        <activity android:name=".exercises" />
+        <activity android:name=".physical_health" />
+        <activity android:name=".playList" />
         <activity android:name=".music_categories" />
         <activity android:name=".motivational_quotes" />
         <activity android:name=".logo_splash">
