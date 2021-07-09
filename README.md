@@ -1,1 +1,0 @@
-# SNAC-app
