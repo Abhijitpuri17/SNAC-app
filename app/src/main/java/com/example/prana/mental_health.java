@@ -16,7 +16,8 @@ public class mental_health extends AppCompatActivity {
 
     public void gotoMeditation(View view)
     {
-
+          Intent intent = new Intent(getApplicationContext() , meditation.class) ;
+          startActivity(intent);
     }
 
     public void gotoMusic(View view)

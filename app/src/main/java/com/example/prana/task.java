@@ -6,7 +6,9 @@ import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteStatement;
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
 public class task extends AppCompatActivity {
@@ -14,12 +16,21 @@ public class task extends AppCompatActivity {
     EditText editText ;
     SQLiteDatabase taskDB ;
     Intent intent ;
+    View taskLayout ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_task);
-
+        taskLayout = findViewById(R.id.taskLayout);
+        taskLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                InputMethodManager mgr = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+                if (getCurrentFocus() != null)
+                mgr.hideSoftInputFromWindow(getCurrentFocus().getWindowToken() , 0) ;
+            }
+        });
 
 
         intent = getIntent();

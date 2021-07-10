@@ -54,6 +54,14 @@ public class exercises extends AppCompatActivity
         underWeightDemoURL.add("https://flabfix.com/wp-content/uploads/2019/05/Forearm-Spiderman-Plank.gif");
         underWeightExercises.add("Spuerman Back Exercise");
         underWeightDemoURL.add("https://flabfix.com/wp-content/uploads/2019/05/Superman.gif");
+        underWeightExercises.add("Barbell Pullover") ;
+        underWeightDemoURL.add("https://thumbs.gfycat.com/AccomplishedParallelDogfish-small.gif") ;
+        underWeightExercises.add("Inchworm") ;
+        underWeightDemoURL.add("https://media4.giphy.com/media/UTXzXAwUHGx8MDEtPS/200.gif") ;
+        underWeightExercises.add("Chin up") ;
+        underWeightDemoURL.add("https://www.gymvisual.com/img/p/1/4/5/2/8/14528.gif") ;
+
+
     }
 
     public void setOverWeightExercises()
@@ -97,6 +105,22 @@ public class exercises extends AppCompatActivity
 
         overWeightExercises.add("Bear Crawls");
         overWeightDemoURL.add("https://hips.hearstapps.com/ame-prod-menshealth-assets.s3.amazonaws.com/main/assets/102-Bear-crawl.gif?crop=0.770xw:0.880xh;0.0691xw,0.0399xh&resize=980:*");
+
+        overWeightExercises.add("Bridges") ;
+        overWeightDemoURL.add("https://thumbs.gfycat.com/ConcernedPointedHornet-size_restricted.gif") ;
+
+        overWeightExercises.add("Wall Sit") ;
+        overWeightDemoURL.add("https://builder.trainerpl.us/img/exercises/gifs/1787.gif") ;
+
+        overWeightExercises.add("Calf Raises") ;
+        overWeightDemoURL.add("https://thumbs.gfycat.com/EntireThatGazelle-max-1mb.gif") ;
+
+        overWeightExercises.add("Crunches") ;
+        overWeightDemoURL.add("https://flabfix.com/wp-content/uploads/2019/05/Crunches.gif");
+
+        overWeightExercises.add("Downward Dog" );
+        overWeightDemoURL.add("https://mindbodygreen-res.cloudinary.com/images/c_scale,w_767,q_auto,f_auto,fl_lossy/org/lgr4emkvskmglh13x/downward-dog-plank.gif") ;
+
     }
 
 
