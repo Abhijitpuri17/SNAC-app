@@ -8,10 +8,13 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.PRANA">
-        <activity android:name=".bmi"></activity>
+        <activity android:name=".chat"></activity>
+        <activity android:name=".task" />
+        <activity android:name=".to_do_list" />
+        <activity android:name=".bmi" />
         <activity android:name=".exercises_demo" />
         <activity android:name=".exercises" />
         <activity android:name=".physical_health" />

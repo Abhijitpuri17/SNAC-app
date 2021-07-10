@@ -5,7 +5,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -79,6 +79,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
+        android:background="#f5d4b1"
         android:fontFamily="casual"
         android:gravity="center"
         android:text="Mental Health"
@@ -95,6 +96,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
+        android:background="#f5d4b1"
         android:fontFamily="casual"
         android:gravity="center"
 
@@ -112,6 +114,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
+        android:background="#f5d4b1"
         android:fontFamily="casual"
         android:gravity="center"
 
@@ -129,6 +132,7 @@
         android:layout_width="192dp"
         android:layout_height="45dp"
         android:layout_marginBottom="20dp"
+        android:background="#f5d4b1"
         android:fontFamily="casual"
 
         android:gravity="center"
@@ -188,8 +192,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
         app:srcCompat="@android:drawable/screen_background_light" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -62,28 +62,30 @@ public class MainActivity extends AppCompatActivity {
         toDoListImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            //    Intent intent = new Intent(MainActivity.this , to_do_list.class) ;
-             //   startActivity(intent);
+                Intent intent = new Intent(MainActivity.this , to_do_list.class) ;
+                startActivity(intent);
             }
         });
         toDoListTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-             //   Intent intent = new Intent(MainActivity.this , to_do_list.class) ;
-               // startActivity(intent);
+                Intent intent = new Intent(MainActivity.this , to_do_list.class) ;
+                startActivity(intent);
             }
         });
 
         chatImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                   Intent intent = new Intent(getApplicationContext() , chat.class) ;
+                   startActivity(intent);
             }
         });
         chatTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(getApplicationContext() , chat.class) ;
+                startActivity(intent);
             }
         });
     }
