@@ -15,7 +15,7 @@
         android:layout_marginTop="150dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="50dp"
-        android:background="@color/black"
+        android:background="@drawable/background_b"
         android:fontFamily="@font/diplomata_sc"
         android:gravity="center"
         android:text="Name : Abhijit\nWeight : 50Kg\nHeight:176cm"
